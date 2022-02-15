@@ -1,0 +1,42 @@
+body{
+    margin:0px auto;
+    width:100%;
+}
+.dresses{
+   display: flex;
+}
+.dresses-items{
+    padding:15px;
+}
+
+.dresses-items-img img{
+    width:327px;
+    height:400px;
+    object-fit: cover;
+    
+}
+.dresses-items-icons {
+    display:flex;
+    margin-top:5px;
+}
+.product-name{
+        margin: 0;
+        text-decoration: none;
+        text-transform: initial;
+        line-height: 24px;
+        font-size: 14px;
+        color: #262626;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+        margin-bottom: 5px;
+        font-family: 'Poppins',
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+.price{
+        font-weight: 500;
+        color: #000000;
+        font-size: 16px;
+        letter-spacing: 0.6px;
+}
