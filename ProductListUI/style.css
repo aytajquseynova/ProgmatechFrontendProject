@@ -1,41 +1,37 @@
-body{
-    margin:0px auto;
-    width:100%;
-}
-.dresses{
-   display: flex;
-}
-.dresses-items{
-    padding:15px;
-    
+body {
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 100%;
 }
 
-.dresses-items-img img{
-    width:327px;
-    height:400px;
+.dresses {
+    display: flex;
+
+}
+
+.dresses-items {
+    padding: 10px;
+}
+
+.dresses-items-img img {
+    width: 327px;
+    height: 400px;
     object-fit: cover;
-  
+
 }
-.dresses-items-img img#dress-first:hover{
+
+.dresses-items-img img#dress-first:hover {
     content: url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/16-327x420.jpg);
-   ;
-    transition:0.5s ease   ;
-    -webkit-transition:0.5s ease   ;
-    -moz-transition:0.5s ease   ;
-    -ms-transition:0.5s ease   ;
-    -o-transition:0.5s ease   ;
+    ;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
 }
-.dresses-items-img img#dress-second:hover{
+
+.dresses-items-img img#dress-second:hover {
     content: url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/06.jpg);
-   ;
-    transition: .5s ease;
-    -webkit-transition: .5s ease;
-    -moz-transition: .5s ease;
-    -ms-transition: .5s ease;
-    -o-transition: .5s ease;
-}
-.dresses-items-img img#dress-third:hover{
-    content:url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/03-327x420.jpg);
     ;
     transition: .5s ease;
     -webkit-transition: .5s ease;
@@ -43,47 +39,73 @@ body{
     -ms-transition: .5s ease;
     -o-transition: .5s ease;
 }
-.dresses-items-img img#dress-fourth:hover{
-    content:url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/07-327x420.jpg);
+
+.dresses-items-img img#dress-third:hover {
+    content: url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/03-327x420.jpg);
     ;
-    transition:.5s ease;
-    -webkit-transition:.5s ease;
-    -moz-transition:.5s ease;
-    -ms-transition:.5s ease;
-    -o-transition:.5s ease;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
 }
-/*
-.button-dresses-items{
-    position:absolute;
-    border:1px solid red;
-    width:34px;
-    height:34px;
-    right: 100px;
-    left: 305px;
-    bottom: 250px;
-}*/
+
+.dresses-items-img img#dress-fourth:hover {
+    content: url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/07-327x420.jpg);
+    ;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
 .dresses-items-icons {
-    display:flex;
-    margin-top:5px;
+    display: flex;
+    margin-top: 5px;
 }
-.product-name{
-        margin: 0;
-        text-decoration: none;
-        text-transform: initial;
-        line-height: 24px;
-        font-size: 14px;
-        color: #262626;
-        font-weight: 400;
-        letter-spacing: 0.6px;
-        margin-bottom: 5px;
-        font-family: 'Poppins',
+i:nth-child(1){
+    color:#ffaa00;
+}
+i:nth-child(2){
+    color:#ffaa00;
+}
+i:nth-child(3) {
+    color: rgb(194, 194, 194);
+}
+i:nth-child(4) {
+    color: rgb(194, 194, 194);
+}
+i:nth-child(5) {
+    color: rgb(194, 194, 194);
+}
+#grey{
+    color: rgb(194, 194, 194);
+}
+.product-name {
+    margin: 0;
+    text-decoration: none;
+    text-transform: initial;
+    line-height: 24px;
+    font-size: 14px;
+    color: #262626;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    margin-bottom: 5px;
+    font-family: 'Poppins',
         Arial,
         Helvetica,
         sans-serif;
 }
-.price{
-        font-weight: 500;
-        color: #000000;
-        font-size: 16px;
-        letter-spacing: 0.6px;
+
+.product-name:hover {
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.price {
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.6px;
 }
