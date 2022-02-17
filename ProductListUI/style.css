@@ -6,6 +6,7 @@ body {
 
 .dresses {
     display: flex;
+    align-content: space-around;
 }
 
 .dresses-items {
@@ -13,13 +14,13 @@ body {
 }
 
 .dresses-items:hover {
-    border: 2px solid grey;
+   border: 6px solid white;
 }
 
 .dresses-items-img img {
-    width: 327px;
-    height: 400px;
-    object-fit: cover;
+    width: 295px;
+    height: 350px;
+    object-fit:cover;
 }
 
 .dresses-items-img img#dress-first:hover {
@@ -56,7 +57,6 @@ body {
 
 .dresses-items-img img#dress-fourth:hover {
     content: url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/07-327x420.jpg);
-
     transition: .5s ease;
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;
@@ -72,7 +72,7 @@ body {
 
 i:nth-child(1),
 :nth-child(2) {
-    color: #ffaa00;
+    color: palevioletred;
 }
 
 i:nth-child(3),
@@ -97,13 +97,15 @@ i:nth-child(3),
     margin-bottom: 5px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-
-.add-to-card-button h4 {
+.button{
+    margin-top: 5px;
+}
+button {
     background-color: palevioletred;
     text-align: center;
-    height: 30px;
-    padding: 8px;
-    opacity: 0;
+    border:none;
+    color:white;
+  
 }
 
 .product-name:hover {
