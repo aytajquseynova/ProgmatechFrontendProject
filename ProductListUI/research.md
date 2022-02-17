@@ -31,3 +31,40 @@ Boolean tipli qiymətləri ekrana çıxarmaq olar, ancaq belə qiymətləri klav
 * low-level language- Aşağı səviyyəli dillər kompilyator və ya tərcüməçi olmadan maşın koduna çevrilə bilər. Aşağı səviyyəli dillər sadədir, lakin proqramçının yadda saxlamalı olduğu çoxsaylı texniki detallara görə istifadəsi çətin hesab olunur.
 * high-level language- Python, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#, Java. Proqramçı artıq sadəcə problemin həllinə fokuslanır və daha az əmr istifadə edərək proqramı yaza bilir. Həmçinin bu dilləərdə yazılan əmrlərin insanların daha rahat anlaya biləcəyi və ağılda qalacağı bir haldadır. 
 * markup language- BBC, HTML, SGML,  XML. nümunə olaraq bunları saya bilərəm.Səhifənin ümumi görünüşünü və onun ehtiva etdiyi məlumatı formatlamağa kömək edən asan başa düşülən açar sözlər, adlar və ya etiketlərdən ibarət kompüter dili 
+# Veb səhifəsinin işləmə prinsipini anlayabilmək üçün mövhumlar:
+## İnternet ve intranet arasındakı fərqlər nədir?
+*  Internet fərqli kompüter şəbəkələrini bir-birinə bağlayır. Hər kəs üçün internet əlçatandır. Türklər demiş, İnternete her kes erişebilir. İntranetlə müqayisədə daha güvənli deyil. İstifadəçi sayı sərhədsizdir, heç bir məhdudiyyət yoxdur.  Ziyarətçi trafiki kifayət qədər çoxdur. Şəbəkə hər kəsə açıqdır. İnternetdəki  bilgilər sərhədsiz və məhdudiyyətsiz şəkildə hər kəs tərəfindən görülə bilir.
+* İntranet isə müəyyən bir firmanın özəl mülkiyyətində olan internetin bir parçasıdır. Yalnız account açma bilgilərinə sahib qurulum istifadəçiləri tərəfindən əlçatandır. İstifadəçi sayı müəyyən məhdudiyyətlər içərisindədir. Ziyarətçi trafiki buna görə internetdəkindən daha azdır. Şəbəkə tipi özəldir. Bilgilər yalnızca həmin qurulumun istifadəçiləri arasında paylaşılır.
+## Server-side və client-side ifadələrinin mənası nədir?
+### server : client tərəfindən request edilən yəni tələb edilən səhifələri çalışdıran tərəfdir.
+### client :səhifələri serverdən request edən və istifadəçiyə göstərən tərəfdir. Bir çox halda client bir web-browser’dır.
+### istifadəçi : istifadəçi client’ı internetdə surf etmək, video izləmək kimi işlər üçün işlədən tərəfdir, yəni bizlərik.
+* Server-side tərəfdə kod yazan developerlərə back-end developerlər deyilir. 
+### PHP
+### Java ve Java Server Page’leri
+###  ASP
+###  Perl
+### Python
+###  Node.js
+###  Ruby on Rails, kimi.
+serverdə çalışdırılan bütün uygulamalara verilən ümumi bir ad olub əsl işi dinamik olaraq içerik üretmek və client`in istədiklərini göndərməkdir. Bir çox veb saytı statik olmadığı üçün database`dən gələcək verilənlərlə işləm edirlər və bu verilənləri məsələn bir sayta giriş etmək istədikdə istifadəçi adınızı və şifrənizi yazıb giriş etmək istədiyinizdə istifadə etdiyiniz client yəni brauzeriniz server`ə istək yollayır və server tərəfdəki proqram sizin bilgilərinizi database`də müqayisə edərək client`ə cavab verir.
+* Client-side proqramlama çox vaxt istifadəçi araüzü ilə bağlı tərəfdir. Yəni istifadəçinin işlətdiyi, etkileşime keçdiyi. Veb proqramlarında bunlar brauzerlərdir. İstifadəçinin kompüterində çalışan kodlardır. Bir çox hallarda JS, Flash kimi texnologiyalarla yazılırlar.client-side programlamada kod yazanlar isə front-end developerlərdir.
+### JavaScript
+### HTML
+### CSS
+### Ajax
+### Flash
+### JQuery veya TreeJS kimi kitabxanalar
+## Server nədir və necə işləyir?
+* Server, şəbəkə üzərindən müştəri olaraq bilinən digər kompüterlərə qaynaq, məlumat, xidmət və ya proqram təmin edən bir kompüter və ya sistemdir. Server bir kompüterdirsə o zaman nə etməli? Kompüterlə server arasındakı fərq haradadır? Mövzu ilə yeni tanış olmağa başlayan bir insan üçün bu iki şey oxşar ola bilər, ancaq bir neçə fərqi müəyyən edə bilərsiniz. Əvvəlcə qeyd edək ki, ikisi də bir CPU, RAM və saxlama üçün sabit disklərə sahibdirlər. Bununla birlikdə serverlər kompüterlər kimi qrafik intensiv tətbiqlər üçün nəzərdə tutulmayıb. İkincisi, CPU fərqli bir nağd ölçüyə malikdir; serverlərdə daha böyükdür. Daha böyük pul ölçüsü bir serverin daha sürətli işləməsinə imkan verir. Üçüncüsü, masaüstlərində tək bir sabit disk olsa da, serverlərdə ümumiyyətlə bir neçə sabit disk var.
+* Bəs server necə işləyir? Ən təməl səviyyədə, kompüterinizə İnternet brauzerində bir URL yazdığınız zaman bir kompüter veb sənədlərini saxlayan server ilə əlaqə qurur və ondan məlumat alır və cihazınızda müvafiq məlumatları göstərir.Bu nöqtəyə qədər serverin bir yerə qoymalı olduğunuz bir şey olduğu ortaya çıxdı, amma texnologiyalar inkişaf etdi, bir server tərifi də inkişaf etdi. Bu günlərdə bir və ya bir neçə fiziki hesablama cihazında işləyən proqramdan başqa bir şey ola bilməz. Bu cür serverlərə çox vaxt virtual server deyilir. Bu gün virtual serverlər tez-tez bulud hesablama deyilən bir tənzimləmə içərisində İnternet üzərindəki hardware üçüncü tərəf tərəfindən idarə olunur. Bu, şübhəsiz ki, elektron xidmətlərdə yeni bir dövrün başlanğıcıdır.
+## Domen nədir və necə işləyir?
+* Domen nedir sualı ilə veb-sayt açmaqla maraqlanan hər kəs qarşılaşır. Domen veb-saytın internet üzərindəki adı və ya ünvanıdır. Domen adları “ip ünvanı” adlanan komputerlərin bir-birini tanımasını təmin edən rəqəm sisteminin sadələşdirilmiş, yadda qalması üçün hərflərlə əvəz olunmuş formasıdır. Biznesinizi internetdə də tanıtmaq istəyirsinizsə, ilk olaraq domen alaraq işə başlaya bilərsiniz. Veb saytların əsas hissələrindən biri olan domen adları, veb ünvanlarını yadda saxlamağa imkan verir. Bununla birlikdə, domen adları sadəcə saytınızın virtual dünyada ünvanını bildirmir, həm də brendinizin gələcəkdə daha uğurlu olmasını təmin edir. Bu səbəbdən domen nedir sualı ilə maraqlanarkən, domenin şirkətinizin və ya layihənizin maraqlarını ifadə etməsinə diqqət yetirin. Doğru domen adının seçilməsi həmçinin saytınızın və ya markanın müvəffəqiyyətinə, nüfuzuna və tanınmasına çox böyük təsir göstərə bilər.
+* 
+## HTTP nədir və və nəyə lazımdır?
+* HTTP (ing. HyperText Transfer Prоtocоl – İnternet şəbəkəsində istifadə olunan protokoldur. HTTP veb-səhifələri İnternetdən çağırmaq üçün bir mexanizmdir.HTTP-nin əsasını URL ünvanı təşkil edir. Ünvanın əvvəlində yazılmış http:// perefeksi müraciət olunan sənədin ümumdünya hörümçək torunun bir hissəsi olduğunu göstərir. Daha sonra əlaqənin tipi göstərilir. Ən çox yayılmış tip World Wide Web (WWW)-dir. Lakin İnternetdə digər əlaqə tiplərindən də istifadə edilir: File Transfer Protocol (FTP) və ya Gopher. 
+* Get metodu ilə hər hansı prosesi başlatmaq olar. İstifadəçi URL-də «?» işarəsindən sonra parametrlər ötürə bilər.
+* POST metodu veb serverin məlumatı alıb saxlaması üçün nəzərdə tutulub. Məlumatlar POST metodunun bədənində göndərilir. Post metodu daha çox faylların göndərilməsində həmçinin veb formlardan məlumat alınmasında istifadə olunur.
+## URL və URI arasındakı fərq nədir?
+* URL (Uniform Resource Locator) ünvana istinad edən bir simvol simli kimi təyin edilə bilər. İnternetdəki mənbələri tapmaq üçün ən geniş yayılmış şəkildə istifadə olunur. Şəbəkə yerini və ya əsas giriş mexanizmini təsvir edərək fiziki yerin təqdimatını almaq üçün bir metod təqdim edir.Protokol, resurs və qaynaq adını almaq üçün istifadə olunan URL-də təsvir edilmişdir. URL bir veb növü mənbəyidirsə, başlanğıcda http / https ehtiva edir
+* URL-yə oxşar, URI (Uniform Resource Identifier) həm də yerdəki, addan və ya hər ikisindən istifadə edərək internetdəki bir mənbəyi təyin edən bir simvol simvoludur. Resursların vahid identifikasiyasına imkan verir. Bir URI əlavə olaraq bir axtarış yeri, bir ad və ya hər ikisi olaraq qruplaşdırılır, yəni bir URL, URN və ya hər ikisini təsvir edə bilər. URI-də termin identifikatoru, əməliyyatı yerinə yetirmək üçün istifadə edilən texnikaya, yerləşmə, ad və ya kontekstə baxmayaraq, mənbələrin fərqinə işarə edir.URL, davamlı olmayan URI növüdür.
