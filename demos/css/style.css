@@ -65,6 +65,10 @@ body .service .services-items .services-items-details button {
   cursor: pointer;
 }
 
+body .service .services-items .services-items-details button:hover {
+  opacity: 0.3;
+}
+
 body .service .services-items-details:hover {
   border: 3px solid #24cf5f;
   -webkit-transform: rotate(360deg);
