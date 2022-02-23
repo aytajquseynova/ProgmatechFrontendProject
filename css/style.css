@@ -1,0 +1,17 @@
+body {
+  margin: 0px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  width: 1200px;
+  font-family: Muli, sans-serif;
+}
+
+body .container .demo-title {
+  background-color: #e12573;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,53 @@
+body {
+  margin: 0px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  width: 1200px;
+  font-family: Muli, sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body .container .demo {
+  margin-top: 60px;
+}
+
+body .container .demo-title {
+  background-color: #e12573;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 13px 15px;
+  text-align: center;
+}
+
+body .container .demo-info {
+  text-align: Center;
+}
+
+body .container .demo-info h2 {
+  font-family: 'Droid Sans',sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+body .container .demo-info p {
+  margin-bottom: 60px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+body .container .demo-info .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
