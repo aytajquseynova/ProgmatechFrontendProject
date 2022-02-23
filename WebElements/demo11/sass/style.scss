@@ -117,18 +117,16 @@ body {
                 }
             }
 
-            .services-items-info {
-                h2 {
-                    color: $secondary-color;
-                }
+            h2 {
+                color: $secondary-color;
+            }
 
-                p {
-                    color: $secondary-color;
-                }
+            p {
+                color: $secondary-color;
+            }
 
-                button {
-                    background: darken($main-color 3%);
-                }
+            button {
+                background: darken($main-color 3%);
             }
         }
     }
