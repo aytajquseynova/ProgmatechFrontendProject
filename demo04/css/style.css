@@ -1,0 +1,62 @@
+body {
+  margin: 0px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  width: 1200px;
+  font-family: Muli, sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+body .container .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .services .services-info {
+  display: Flex;
+}
+
+body .container .services .services-info .services-info-icon i {
+  margin-right: 40px;
+  text-align: right;
+  color: #e12573;
+  font-size: 52px;
+  line-height: 120px;
+}
+
+body .container .services .services-info .services-short-info h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 13px 0;
+}
+
+body .container .services .services-info .services-short-info p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+body .container .services .button button {
+  margin: 10px 0 20px;
+  padding: 12px 35px;
+  color: #fff;
+  border-radius: 40px;
+  background: #e12573;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}

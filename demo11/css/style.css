@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px auto;
+}
+
+body {
+  width: 1200px;
+  font-family: serif;
+}
+
+body .container {
+  text-align: center;
+}
+
+body .container .demo-title {
+  background-color: #ee12a0;
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+  padding: 13px 15px;
+  font-weight: 700;
+}
+
+body .container .demo-short-info h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+body .container .demo-short-info p {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+body .container .services {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+body .container .services .services-items {
+  position: relative;
+  margin: 90px 0 40px;
+  padding: 70px 2px 74px;
+  border: 1px solid #ee12a0;
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+body .container .services .services-items .services-items-icon {
+  margin-top: -121px;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background: #ee12a0;
+}
+
+body .container .services .services-items .services-items-icon i {
+  text-align: Center;
+  margin-top: 23px;
+  font-size: 52px;
+  color: #fff;
+}
+
+body .container .services .services-items .services-items-info h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 18px;
+  padding: 8px 0;
+}
+
+body .container .services .services-items .services-items-info p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+body .container .services .services-items button {
+  margin: 10px 0 20px;
+  padding: 12px 35px;
+  color: #fff;
+  border-radius: 40px;
+  background: #ee12a0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}

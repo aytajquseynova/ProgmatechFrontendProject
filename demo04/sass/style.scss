@@ -1,0 +1,52 @@
+$main-width: 1200px;
+$font: Muli, sans-serif;
+
+body {
+    margin: 0px auto;
+    box-sizing: border-box;
+
+    .container {
+        width: $main-width;
+        font-family: $font;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        .services {
+            display: flex;
+
+            .services-info {
+                display: Flex;
+.servi
+                .services-info-icon i {
+                    margin-right: 40px;
+                    text-align: right;
+                    color: #e12573;
+                    font-size: 52px;
+                    line-height: 120px;
+                }
+
+                .services-short-info {
+                    h2 {
+                        font-size: 30px;
+                        font-weight: 700;
+                        line-height: 1.1;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        padding: 13px 0;
+                    }
+
+                    p {
+                        padding: 0 17px 17px;
+                        color: #919191;
+                        margin: 0 0 10px;
+                        text-align: left;
+                        font-size: 14px;
+                        line-height: 1.42857143;
+                    }
+                }
+            }
+
+           
+        }
+    }
+}

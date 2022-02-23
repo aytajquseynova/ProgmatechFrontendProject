@@ -1,0 +1,106 @@
+$main-width: 1200px;
+$font: serif;
+$main-color: #ee12a0;
+$secondary-color: #fff;
+
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+body {
+    width: $main-width;
+    font-family: $font;
+
+    .container {
+        text-align: center;
+
+        .demo-title {
+            background-color: $main-color;
+            color: $secondary-color;
+            font-size: 18px;
+            margin: 0;
+            padding: 13px 15px;
+            font-weight: 700;
+        }
+
+        .demo-short-info {
+            h2 {
+                font-weight: 700;
+                font-size: 30px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 1.1;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #333;
+            }
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+
+            .services-items {
+                position: relative;
+                margin: 90px 0 40px;
+                padding: 70px 2px 74px;
+                border: 1px solid $main-color;
+                height: 350px;
+                width: 350px;
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+
+                .services-items-icon {
+                    margin-top: -121px;
+                    border-radius: 100%;
+                    width: 100px;
+                    height: 100px;
+                    background: #ee12a0;
+
+                    i {
+                        text-align: Center;
+                        margin-top: 23px;
+                        font-size: 52px;
+                        color: $secondary-color;
+                    }
+                }
+                .services-items-info{
+                  
+                    h2{
+                        font-size: 30px;
+                        font-weight: 700;
+                        margin-top: 0;
+                        margin-bottom: 18px;
+                        padding: 8px 0;
+                    }
+                    p{
+                        margin: 0 0 10px;
+                        font-size: 14px;
+                        line-height: 1.42857143;
+                    }
+                }
+                button{
+                    margin: 10px 0 20px;
+                    padding: 12px 35px;
+                    color: #fff;
+                    border-radius: 40px;
+                    background: $main-color;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 1.42857143;
+                    text-align: center;
+                    border: 1px solid transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
