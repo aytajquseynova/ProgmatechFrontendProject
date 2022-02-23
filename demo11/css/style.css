@@ -100,3 +100,19 @@ body .container .services .services-items button {
   border: 1px solid transparent;
   cursor: pointer;
 }
+
+body .container .services-items:hover {
+  background-color: #ee12a0;
+}
+
+body .container .services-items:hover .services-items-icon {
+  background-color: #fff;
+}
+
+body .container .services-items:hover .services-items-icon i {
+  color: #ee12a0;
+}
+
+body .container .services-items:hover button {
+  background: black;
+}
